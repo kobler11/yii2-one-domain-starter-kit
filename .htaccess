@@ -1,0 +1,8 @@
+RewriteEngine on
+
+#must be first
+RewriteRule ^admin backend/web/index.php [L]
+
+#main rewrite rule for the frontend application
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .? frontend/web/index.php [L]

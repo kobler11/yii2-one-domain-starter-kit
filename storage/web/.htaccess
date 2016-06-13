@@ -1,4 +1,6 @@
 RewriteEngine on
+Order allow,deny
+Allow from all
 
 RedirectMatch 403 /\..*$
 RewriteCond %{REQUEST_FILENAME} !-f
