@@ -17,6 +17,9 @@ $config = [
         ]
     ],
     'components' => [
+        'assetManager' => [
+            'baseUrl' => '@frontendUrl/frontend/web/assets'
+        ],
         'authClientCollection' => [
             'class' => 'yii\authclient\Collection',
             'clients' => [
@@ -49,6 +52,7 @@ $config = [
             }
         ],
         'request' => [
+            'baseUrl' => env('FRONTEND_URL'),
             'cookieValidationKey' => env('FRONTEND_COOKIE_VALIDATION_KEY')
         ],
         'user' => [
