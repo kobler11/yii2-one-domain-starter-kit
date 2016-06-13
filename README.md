@@ -10,7 +10,7 @@
 
 <!-- /BADGES -->
 
-This is Yii2 start application template.
+This is Yii2 one-domain start application template, Based on [yii2-starter-kit](https://github.com/trntv/yii2-starter-kit)
 
 It was created and developing as a fast start for building an advanced sites based on Yii2. 
 
