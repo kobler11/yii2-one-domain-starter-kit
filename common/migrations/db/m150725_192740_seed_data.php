@@ -137,7 +137,7 @@ class m150725_192740_seed_data extends Migration
         $this->insert('{{%widget_carousel_item}}', [
             'carousel_id'=>1,
             'base_url' => Yii::getAlias('@frontendUrl'),
-            'path'=>'img/yii2-starter-kit.gif',
+            'path'=> '/frontend/web/img/yii2-starter-kit.gif',
             'type'=>'image/gif',
             'url'=>'/',
             'status'=>1
